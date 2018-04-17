@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>jQuery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="./index.js"></script>
+  <style>
+    .blue-div {
+      background: #0000ff;
+      position: relative;
+      height: 100px;
+      width: 100px;
+      left: 50px;
+    }
+  </style>
+</head>
+<body>
+  <button id="hello">Say hello.</button>
+  <p>Test</p>
+  <div class="accordion" id="sortable">
+    <h3 class="accordion-header">Show / Hide</h3>
+    <div>
+      <p>You can hide/show this paragraph.</p>
+      <button id="hide-me">Hide me</button>
+      <button id="show-me">Show me</button>
+    </div>
+    
+    <h3 class="accordion-header">Move DIV left/right</h3>
+    <div>
+      <button class="move-left">DIV move left</button>
+      <button class="move-right">DIV move right</button>
+      <div class="blue-div"></div>
+    </div>
+    
+    <h3 class="accordion-header">Change DIV</h3>
+    <div>
+      <button id="change-div">Change me</button>
+      <div class="blue-div"></div>
+    </div>
+    
+    <h3 class="accordion-header">Remove Me</h3>
+    <div>
+      <div id="div1"></div>
+    </div>
+    
+    <h3 class="accordion-header">Show / Hide</h3>
+    <div>hello world</div>
+  </div>
+</body>
+</html>
